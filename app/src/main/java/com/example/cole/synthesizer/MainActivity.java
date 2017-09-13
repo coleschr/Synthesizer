@@ -26,11 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         createMediaPlayers();
         colorButtons();
 
-
     }
 
     private void wireWidgets() {
-
         //wire and set up number pickers
         numberOfTimesNumberPicker = (NumberPicker) findViewById(R.id.numberPicker_number);
         numberOfTimesNumberPicker.setMinValue(1);
